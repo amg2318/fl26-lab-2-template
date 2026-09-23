@@ -92,10 +92,13 @@ body {
   .menu-toggle:checked ~ nav {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     width: 100%;
     border-color: lightgrey;
     box-shadow: 4px 4px 10px 0px lightgray;
+    gap: 0px;
   }
   /* GUIDE 4: style nav as vertical panel */
   /* 4-1) How the link inside of nav should be displayed? */  
@@ -103,12 +106,14 @@ body {
     border-top: 1px solid #e5e5e5;
     border-radius: 0px;
     width: 100%;
+    padding: 12px;
   }
   /* 4-2) Where the nav should be positioned? */
   
   .site-header {
     flex-wrap: wrap;
     padding: 12px 0px 0px;
+    gap: 0px;
   }
 
   .brand {
